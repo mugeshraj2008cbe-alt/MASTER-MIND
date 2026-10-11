@@ -1,0 +1,44 @@
+# Node & Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+ENV/
+*.db
+*.sqlite
+*.sqlite3
+
+# Storage uploads (preserve sample images)
+backend/storage/project_*
+backend/storage/adjusted_*
+backend/storage/mask_*
+backend/storage/proj_*
+backend/storage/[0-9a-f]*.jpg
+backend/storage/[0-9a-f]*.png
+!backend/storage/sample_original.jpg
+!backend/storage/sample_reference.jpg
+
+# Vercel
+.vercel/
+
+# Environment files
+.env
+.env*.local
+
+# System
+Thumbs.db
+.DS_Store
