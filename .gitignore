@@ -42,3 +42,5 @@ backend/storage/[0-9a-f]*.png
 # System
 Thumbs.db
 .DS_Store
+
+.vercel
